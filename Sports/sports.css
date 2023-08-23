@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("I8Gdcg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+table {
+  width: 50%; /* Set the width of the table */
+  border-collapse: collapse; /* Remove spacing between cells */
+  margin: 20px auto; /* Center the table and add some margin around it */
+  font-family: Arial, sans-serif; /* Set the font */
+}
+
+th,
+td {
+  border: 1px solid #dddddd; /* Add a border to the cells */
+  text-align: left; /* Align text to the left */
+  padding: 8px; /* Add some padding */
+}
+
+th {
+  background-color: #f2f2f2; /* Add a background color to the header cells */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Add a background color to alternate rows */
+}
+
+input[type="search"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
